@@ -115,13 +115,59 @@ const lightbox = document.querySelector("#lightbox");
 const lightboxImage = lightbox.querySelector("img");
 const lightboxCaption = lightbox.querySelector("p");
 const closeLightbox = lightbox.querySelector(".lightbox-close");
+const prevLightbox = lightbox.querySelector(".lightbox-prev");
+const nextLightbox = lightbox.querySelector(".lightbox-next");
+const galleryModal = document.querySelector("#gallery-modal");
+const galleryClose = galleryModal.querySelector(".gallery-close");
+const galleryTitle = galleryModal.querySelector(".gallery-header h2");
+const galleryDescription = galleryModal.querySelector(".gallery-header p");
+const galleryMeta = galleryModal.querySelector(".gallery-meta");
+const galleryGrid = galleryModal.querySelector(".gallery-grid");
 
-function openLightbox(src, caption) {
-  lightboxImage.src = src;
-  lightboxImage.alt = caption;
-  lightboxCaption.textContent = caption;
+let activeImages = [];
+let activeImageIndex = 0;
+
+const projectImages = (project) =>
+  Array.from({ length: project.count }, (_, index) => ({
+    src: imagePath(project.slug, index + 1),
+    caption: `${project.title} / ${index + 1} of ${project.count}`,
+  }));
+
+function preloadProject(project) {
+  projectImages(project)
+    .slice(0, 8)
+    .forEach((item) => {
+      const img = new Image();
+      img.src = item.src;
+    });
+}
+
+function openLightbox(images, startIndex = 0) {
+  activeImages = Array.isArray(images)
+    ? images
+    : [{ src: images, caption: arguments[1] || "" }];
+  activeImageIndex = startIndex;
+  renderLightboxImage();
   lightbox.classList.add("is-open");
   lightbox.setAttribute("aria-hidden", "false");
+}
+
+function renderLightboxImage() {
+  const item = activeImages[activeImageIndex];
+  if (!item) return;
+  lightboxImage.src = item.src;
+  lightboxImage.alt = item.caption;
+  lightboxCaption.textContent = item.caption;
+  const showNav = activeImages.length > 1;
+  prevLightbox.style.display = showNav ? "" : "none";
+  nextLightbox.style.display = showNav ? "" : "none";
+}
+
+function moveLightbox(direction) {
+  if (activeImages.length < 2) return;
+  activeImageIndex =
+    (activeImageIndex + direction + activeImages.length) % activeImages.length;
+  renderLightboxImage();
 }
 
 function closeLightboxPanel() {
@@ -130,10 +176,48 @@ function closeLightboxPanel() {
   lightboxImage.src = "";
 }
 
+function openGallery(project) {
+  const images = projectImages(project);
+  galleryTitle.textContent = project.title;
+  galleryDescription.textContent = project.tone;
+  galleryMeta.innerHTML = `
+    <span>${project.category}</span>
+    <span>${project.count} images</span>
+    <span>${project.slug}</span>
+  `;
+  galleryGrid.innerHTML = images
+    .map(
+      (item, index) => `
+        <button class="gallery-item" type="button" data-index="${index}" aria-label="查看 ${item.caption}">
+          <img src="${item.src}" alt="${item.caption}" loading="${index < 6 ? "eager" : "lazy"}">
+        </button>
+      `,
+    )
+    .join("");
+  galleryGrid.querySelectorAll(".gallery-item").forEach((button) => {
+    button.addEventListener("click", () =>
+      openLightbox(images, Number(button.dataset.index)),
+    );
+  });
+  galleryModal.classList.add("is-open");
+  galleryModal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+}
+
+function closeGallery() {
+  galleryModal.classList.remove("is-open");
+  galleryModal.setAttribute("aria-hidden", "true");
+  galleryGrid.innerHTML = "";
+  document.body.style.overflow = "";
+}
+
 function makeCard(project, index) {
   const main = project.feature[0] || 1;
   const article = document.createElement("article");
   article.className = `project-card ${index === 0 ? "large" : ""}`;
+  article.tabIndex = 0;
+  article.setAttribute("role", "button");
+  article.setAttribute("aria-label", `打开 ${project.title} 项目图库`);
   article.innerHTML = `
     <figure>
       <img src="${imagePath(project.slug, main)}" alt="${project.title}" loading="${index === 0 ? "eager" : "lazy"}">
@@ -147,9 +231,14 @@ function makeCard(project, index) {
       <p>${project.tone}</p>
     </div>
   `;
-  article.addEventListener("click", () =>
-    openLightbox(imagePath(project.slug, main), `${project.title} / ${project.tone}`),
-  );
+  article.addEventListener("mouseenter", () => preloadProject(project));
+  article.addEventListener("click", () => openGallery(project));
+  article.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      openGallery(project);
+    }
+  });
   return article;
 }
 
@@ -182,6 +271,9 @@ function makeArchiveCard(project) {
   const article = document.createElement("article");
   article.className = "archive-card";
   article.dataset.category = project.category;
+  article.tabIndex = 0;
+  article.setAttribute("role", "button");
+  article.setAttribute("aria-label", `打开 ${project.title} 项目图库`);
   const thumbs = project.feature
     .slice(0, 4)
     .map(
@@ -208,10 +300,13 @@ function makeArchiveCard(project) {
     </div>
   `;
 
-  article.querySelectorAll(".thumb-row button").forEach((button) => {
-    button.addEventListener("click", () =>
-      openLightbox(button.dataset.src, button.dataset.caption),
-    );
+  article.addEventListener("mouseenter", () => preloadProject(project));
+  article.addEventListener("click", () => openGallery(project));
+  article.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      openGallery(project);
+    }
   });
 
   return article;
@@ -262,9 +357,27 @@ document.querySelectorAll(".creator-image").forEach((button) => {
 });
 
 closeLightbox.addEventListener("click", closeLightboxPanel);
+prevLightbox.addEventListener("click", () => moveLightbox(-1));
+nextLightbox.addEventListener("click", () => moveLightbox(1));
 lightbox.addEventListener("click", (event) => {
   if (event.target === lightbox) closeLightboxPanel();
 });
+galleryClose.addEventListener("click", closeGallery);
+galleryModal.addEventListener("click", (event) => {
+  if (event.target === galleryModal) closeGallery();
+});
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") closeLightboxPanel();
+  if (event.key === "Escape") {
+    if (lightbox.classList.contains("is-open")) {
+      closeLightboxPanel();
+    } else {
+      closeGallery();
+    }
+  }
+  if (lightbox.classList.contains("is-open") && event.key === "ArrowLeft") {
+    moveLightbox(-1);
+  }
+  if (lightbox.classList.contains("is-open") && event.key === "ArrowRight") {
+    moveLightbox(1);
+  }
 });
