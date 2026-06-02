@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "src": "assets/creator/creator-01.jpg",
+      "source": "1-头像.png",
+      "w": 1024,
+      "h": 1024,
+      "original": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "src": "assets/creator/creator-02.jpg",
+      "source": "2-形象设计 (1).jpg",
+      "w": 1650,
+      "h": 2200,
+      "original": [
+        3125,
+        4167
+      ]
+    },
+    {
+      "src": "assets/creator/creator-03.jpg",
+      "source": "2-形象设计 (2).jpg",
+      "w": 1650,
+      "h": 2200,
+      "original": [
+        3125,
+        4167
+      ]
+    },
+    {
+      "src": "assets/creator/creator-04.jpg",
+      "source": "2-形象设计 (3).jpg",
+      "w": 1650,
+      "h": 2200,
+      "original": [
+        3125,
+        4167
+      ]
+    }
+  ]
+}
