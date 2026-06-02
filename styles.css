@@ -32,11 +32,13 @@ body {
   font-family:
     "Arial Rounded MT Bold", "Microsoft YaHei", "PingFang SC", system-ui,
     sans-serif;
+  overflow-x: hidden;
 }
 
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {

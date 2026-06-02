@@ -107,6 +107,8 @@ const projects = [
 
 const imagePath = (slug, index) =>
   `assets/portfolio/${slug}-${String(index).padStart(2, "0")}.jpg`;
+const thumbPath = (slug, index) =>
+  `assets/portfolio/thumbs/${slug}-${String(index).padStart(2, "0")}.jpg`;
 
 const featured = document.querySelector("#featured-grid");
 const landing = document.querySelector("#landing-grid");
@@ -130,6 +132,7 @@ let activeImageIndex = 0;
 const projectImages = (project) =>
   Array.from({ length: project.count }, (_, index) => ({
     src: imagePath(project.slug, index + 1),
+    thumb: thumbPath(project.slug, index + 1),
     caption: `${project.title} / ${index + 1} of ${project.count}`,
   }));
 
@@ -138,7 +141,7 @@ function preloadProject(project) {
     .slice(0, 8)
     .forEach((item) => {
       const img = new Image();
-      img.src = item.src;
+      img.src = item.thumb;
     });
 }
 
@@ -189,7 +192,7 @@ function openGallery(project) {
     .map(
       (item, index) => `
         <button class="gallery-item" type="button" data-index="${index}" aria-label="查看 ${item.caption}">
-          <img src="${item.src}" alt="${item.caption}" loading="${index < 6 ? "eager" : "lazy"}">
+          <img src="${item.thumb}" alt="${item.caption}" loading="${index < 6 ? "eager" : "lazy"}" decoding="async">
         </button>
       `,
     )
@@ -220,7 +223,7 @@ function makeCard(project, index) {
   article.setAttribute("aria-label", `打开 ${project.title} 项目图库`);
   article.innerHTML = `
     <figure>
-      <img src="${imagePath(project.slug, main)}" alt="${project.title}" loading="${index === 0 ? "eager" : "lazy"}">
+      <img src="${thumbPath(project.slug, main)}" alt="${project.title}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
     </figure>
     <div class="project-card-body">
       <div class="meta-row">
@@ -260,7 +263,7 @@ function makeLandingTile(project, imageIndex, tileIndex) {
   ];
   button.className = `landing-tile ${shapes[tileIndex] || ""}`;
   button.type = "button";
-  button.innerHTML = `<img src="${imagePath(project.slug, imageIndex)}" alt="${project.title}" loading="lazy">`;
+  button.innerHTML = `<img src="${thumbPath(project.slug, imageIndex)}" alt="${project.title}" loading="lazy" decoding="async">`;
   button.addEventListener("click", () =>
     openLightbox(imagePath(project.slug, imageIndex), `${project.title} / ${project.category}`),
   );
@@ -279,7 +282,7 @@ function makeArchiveCard(project) {
     .map(
       (item) => `
         <button type="button" data-src="${imagePath(project.slug, item)}" data-caption="${project.title}">
-          <img src="${imagePath(project.slug, item)}" alt="${project.title}" loading="lazy">
+          <img src="${thumbPath(project.slug, item)}" alt="${project.title}" loading="lazy" decoding="async">
         </button>
       `,
     )
@@ -287,7 +290,7 @@ function makeArchiveCard(project) {
 
   article.innerHTML = `
     <figure>
-      <img src="${imagePath(project.slug, project.feature[0] || 1)}" alt="${project.title}" loading="lazy">
+      <img src="${thumbPath(project.slug, project.feature[0] || 1)}" alt="${project.title}" loading="lazy" decoding="async">
     </figure>
     <div class="archive-card-body">
       <div class="meta-row">
@@ -334,10 +337,25 @@ projects.slice(0, 5).forEach((project, index) => {
   landing.append(makeLandingTile(project, index, tileIndex));
 });
 
-projects.forEach((project) => archive.append(makeArchiveCard(project)));
+let archiveRendered = false;
+
+function renderArchive() {
+  if (archiveRendered) return;
+  projects.forEach((project) => archive.append(makeArchiveCard(project)));
+  archiveRendered = true;
+}
+
+if (location.hash === "#archive") {
+  renderArchive();
+} else if ("requestIdleCallback" in window) {
+  requestIdleCallback(renderArchive, { timeout: 1800 });
+} else {
+  setTimeout(renderArchive, 900);
+}
 
 document.querySelectorAll(".filter").forEach((button) => {
   button.addEventListener("click", () => {
+    renderArchive();
     document.querySelectorAll(".filter").forEach((item) => item.classList.remove("is-active"));
     button.classList.add("is-active");
     const filter = button.dataset.filter;
