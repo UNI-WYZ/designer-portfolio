@@ -109,6 +109,7 @@ const imagePath = (slug, index) =>
   `assets/portfolio/${slug}-${String(index).padStart(2, "0")}.jpg`;
 const thumbPath = (slug, index) =>
   `assets/portfolio/thumbs/${slug}-${String(index).padStart(2, "0")}.jpg`;
+const isMobileViewport = window.matchMedia("(max-width: 768px)").matches;
 
 const featured = document.querySelector("#featured-grid");
 const landing = document.querySelector("#landing-grid");
@@ -137,6 +138,7 @@ const projectImages = (project) =>
   }));
 
 function preloadProject(project) {
+  if (isMobileViewport) return;
   projectImages(project)
     .slice(0, 8)
     .forEach((item) => {
@@ -315,11 +317,20 @@ function makeArchiveCard(project) {
   return article;
 }
 
-projects.slice(0, 5).forEach((project, index) => {
+const featuredInitialCount = isMobileViewport ? 3 : 5;
+projects.slice(0, featuredInitialCount).forEach((project, index) => {
   featured.append(makeCard(project, index));
 });
 
-[
+function renderRemainingFeatured() {
+  if (!isMobileViewport || featured.dataset.complete === "true") return;
+  projects.slice(featuredInitialCount, 5).forEach((project, index) => {
+    featured.append(makeCard(project, index + featuredInitialCount));
+  });
+  featured.dataset.complete = "true";
+}
+
+const landingItems = [
   ["commercial-landing", 2],
   ["commercial-landing", 4],
   ["commercial-landing", 6],
@@ -332,10 +343,23 @@ projects.slice(0, 5).forEach((project, index) => {
   ["hotdog-park", 3],
   ["fitma", 1],
   ["tophit", 21],
-].forEach(([slug, index], tileIndex) => {
-  const project = projects.find((item) => item.slug === slug);
-  landing.append(makeLandingTile(project, index, tileIndex));
-});
+];
+
+function renderLanding(limit = landingItems.length) {
+  if (Number(landing.dataset.rendered || 0) >= limit) return;
+  const start = Number(landing.dataset.rendered || 0);
+  landingItems.slice(start, limit).forEach(([slug, index], tileIndex) => {
+    const project = projects.find((item) => item.slug === slug);
+    landing.append(makeLandingTile(project, index, start + tileIndex));
+  });
+  landing.dataset.rendered = String(limit);
+}
+
+if (isMobileViewport) {
+  renderLanding(4);
+} else {
+  renderLanding();
+}
 
 let archiveRendered = false;
 
@@ -345,7 +369,30 @@ function renderArchive() {
   archiveRendered = true;
 }
 
-if (location.hash === "#archive") {
+function observeOnce(element, callback) {
+  if (!("IntersectionObserver" in window)) {
+    callback();
+    return;
+  }
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        observer.disconnect();
+        callback();
+      }
+    },
+    { rootMargin: "450px 0px" },
+  );
+  observer.observe(element);
+}
+
+if (isMobileViewport) {
+  observeOnce(landing, () => {
+    renderLanding();
+    renderRemainingFeatured();
+  });
+  observeOnce(archive, renderArchive);
+} else if (location.hash === "#archive") {
   renderArchive();
 } else if ("requestIdleCallback" in window) {
   requestIdleCallback(renderArchive, { timeout: 1800 });

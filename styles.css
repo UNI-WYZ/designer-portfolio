@@ -1163,6 +1163,35 @@ section {
     min-height: 430px;
   }
 
+  .ticker div {
+    animation: none;
+    transform: none;
+  }
+
+  .ticker {
+    overflow-x: auto;
+  }
+
+  .hero-poster,
+  .project-card,
+  .archive-card,
+  .landing-tile img,
+  .creator-image,
+  .gallery-item,
+  .gallery-item img {
+    transition: none;
+  }
+
+  .hero-stage:hover .poster-a,
+  .hero-stage:hover .poster-b,
+  .hero-stage:hover .poster-c,
+  .project-card:hover,
+  .archive-card:hover,
+  .creator-image:hover,
+  .gallery-item:hover {
+    transform: none;
+  }
+
   .poster-a {
     width: 74%;
   }
