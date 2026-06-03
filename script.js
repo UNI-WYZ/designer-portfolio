@@ -419,12 +419,12 @@ function renderRemainingFeatured() {
 }
 
 const landingItems = [
-  ["commercial-landing", 2],
-  ["commercial-landing", 8],
-  ["commercial-landing", 16],
-  ["commercial-landing", 22],
-  ["commercial-landing", 29],
-  ["commercial-landing", 35],
+  ["commercial-landing", 18],
+  ["commercial-landing", 25],
+  ["commercial-landing", 31],
+  ["commercial-landing", 32],
+  ["commercial-landing", 33],
+  ["commercial-landing", 34],
 ];
 
 function renderLanding(limit = landingItems.length) {
