@@ -30,8 +30,7 @@ body {
     var(--paper);
   background-size: 42px 42px;
   font-family:
-    "Arial Rounded MT Bold", "Microsoft YaHei", "PingFang SC", system-ui,
-    sans-serif;
+    "Noto Sans SC", "Microsoft YaHei", "PingFang SC", "Heiti SC", sans-serif;
   overflow-x: hidden;
 }
 
@@ -76,6 +75,7 @@ button {
 }
 
 .brand-mark span {
+  font-family: "Arial Rounded MT Bold", "Noto Sans SC", "Microsoft YaHei", sans-serif;
   font-size: 1.35rem;
   font-weight: 950;
   line-height: 1;
@@ -639,7 +639,7 @@ section {
 
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
 
@@ -655,8 +655,8 @@ section {
 }
 
 .project-card.large {
-  grid-column: span 2;
-  grid-row: span 2;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .project-card figure,
@@ -667,12 +667,13 @@ section {
 
 .project-card img {
   width: 100%;
-  height: 310px;
+  aspect-ratio: 1;
+  height: auto;
   object-fit: cover;
 }
 
 .project-card.large img {
-  height: 520px;
+  height: auto;
 }
 
 .project-card-body,
@@ -808,50 +809,54 @@ section {
 
 .landing-grid {
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-auto-rows: clamp(128px, 9vw, 168px);
-  grid-auto-flow: dense;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-auto-rows: auto;
   gap: clamp(14px, 1.4vw, 22px);
-  width: min(100%, 1580px);
+  width: min(100%, 1460px);
   margin-inline: auto;
+  align-items: end;
+  padding-block: clamp(18px, 3vw, 42px);
 }
 
 .landing-tile {
   position: relative;
-  grid-column: span 3;
-  grid-row: span 2;
+  grid-column: span 2;
+  grid-row: auto;
+  aspect-ratio: 0.78;
   min-height: 0;
   border: var(--line);
   background: var(--cream);
-  box-shadow: 6px 6px 0 var(--ink);
+  box-shadow: 7px 7px 0 var(--ink);
   overflow: hidden;
   cursor: zoom-in;
+  transform: rotate(var(--tilt, 0deg)) translateY(var(--lift, 0));
+  transition: transform 260ms ease, box-shadow 260ms ease;
 }
 
 .landing-tile.wide {
-  grid-column: span 4;
-  grid-row: span 2;
+  grid-column: span 2;
+  grid-row: auto;
 }
 
 .landing-tile.tall {
-  grid-column: span 3;
-  grid-row: span 3;
+  grid-column: span 2;
+  grid-row: auto;
 }
 
 .landing-tile.hero-tile {
-  grid-column: span 6;
-  grid-row: span 3;
-  box-shadow: 8px 8px 0 var(--ink);
+  grid-column: span 2;
+  grid-row: auto;
+  box-shadow: 9px 9px 0 var(--ink);
 }
 
 .landing-tile.poster-tile {
-  grid-column: span 3;
-  grid-row: span 3;
+  grid-column: span 2;
+  grid-row: auto;
 }
 
 .landing-tile.label-tile {
-  grid-column: span 3;
-  grid-row: span 2;
+  grid-column: span 2;
+  grid-row: auto;
 }
 
 .landing-tile img {
@@ -862,6 +867,36 @@ section {
   transition: transform 320ms ease;
 }
 
+.landing-tile:nth-child(1) {
+  --tilt: -4deg;
+  --lift: 12px;
+}
+
+.landing-tile:nth-child(2) {
+  --tilt: 2.5deg;
+  --lift: -8px;
+}
+
+.landing-tile:nth-child(3) {
+  --tilt: -1.5deg;
+  --lift: 18px;
+}
+
+.landing-tile:nth-child(4) {
+  --tilt: 3.5deg;
+  --lift: 2px;
+}
+
+.landing-tile:nth-child(5) {
+  --tilt: -3deg;
+  --lift: -4px;
+}
+
+.landing-tile:nth-child(6) {
+  --tilt: 1.5deg;
+  --lift: 14px;
+}
+
 .landing-tile.hero-tile img,
 .landing-tile.poster-tile img {
   object-position: center;
@@ -869,6 +904,12 @@ section {
 
 .landing-tile:hover img {
   transform: scale(1.05);
+}
+
+.landing-tile:hover {
+  z-index: 2;
+  box-shadow: 11px 11px 0 var(--ink);
+  transform: rotate(0deg) translateY(-10px);
 }
 
 .archive {
@@ -888,8 +929,8 @@ section {
 
 .archive-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(12px, 1.4vw, 18px);
 }
 
 .archive-card {
@@ -909,8 +950,28 @@ section {
 
 .archive-card img {
   width: 100%;
-  height: 260px;
+  aspect-ratio: 1;
+  height: auto;
   object-fit: cover;
+}
+
+.archive-card .archive-card-body {
+  padding: 12px;
+}
+
+.archive-card p,
+.archive-card .thumb-row {
+  display: none;
+}
+
+.archive-card .meta-row {
+  margin-bottom: 8px;
+  font-size: 0.68rem;
+}
+
+.archive-card h3 {
+  margin-bottom: 0;
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
 }
 
 .thumb-row {
@@ -1210,8 +1271,8 @@ section {
   }
 
   .landing-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    grid-auto-rows: clamp(105px, 18vw, 150px);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: auto;
   }
 
   .gallery-grid {
@@ -1228,14 +1289,18 @@ section {
   .landing-tile.hero-tile,
   .landing-tile.poster-tile,
   .landing-tile.label-tile {
-    grid-column: span 3;
-    grid-row: span 2;
+    grid-column: span 1;
+    grid-row: auto;
   }
 
   .landing-tile.hero-tile,
   .landing-tile.wide {
-    grid-column: span 6;
-    grid-row: span 3;
+    grid-column: span 1;
+    grid-row: auto;
+  }
+
+  .archive-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -1331,7 +1396,7 @@ section {
 
   .landing-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-auto-rows: 178px;
+    grid-auto-rows: auto;
     gap: 12px;
   }
 
@@ -1353,19 +1418,26 @@ section {
   .landing-tile.poster-tile,
   .landing-tile.label-tile {
     grid-column: span 1;
-    grid-row: span 1;
+    grid-row: auto;
   }
 
   .landing-tile.hero-tile,
   .landing-tile.wide,
   .landing-tile.poster-tile {
-    grid-column: span 2;
-    grid-row: span 2;
+    grid-column: span 1;
+    grid-row: auto;
   }
 
   .landing-tile img {
-    object-fit: contain;
-    background: var(--cream);
+    object-fit: cover;
+  }
+
+  .archive-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .archive-card img {
+    height: auto;
   }
 
   .gallery-modal {

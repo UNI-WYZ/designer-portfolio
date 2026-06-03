@@ -356,9 +356,7 @@ function makeLandingTile(project, imageIndex, tileIndex) {
   button.className = `landing-tile ${shapes[tileIndex] || ""}`;
   button.type = "button";
   button.innerHTML = `<img src="${thumbPath(project.slug, imageIndex)}" alt="${project.title}" loading="lazy" decoding="async">`;
-  button.addEventListener("click", () =>
-    openLightbox(imagePath(project.slug, imageIndex), `${project.title} / ${project.category}`),
-  );
+  button.addEventListener("click", () => openGallery(project));
   return button;
 }
 
@@ -422,17 +420,11 @@ function renderRemainingFeatured() {
 
 const landingItems = [
   ["commercial-landing", 2],
-  ["commercial-landing", 4],
-  ["commercial-landing", 6],
-  ["commercial-landing", 10],
-  ["potatodrew", 3],
-  ["potatodrew", 6],
-  ["efac", 10],
-  ["efac", 14],
-  ["strongburger", 2],
-  ["hotdog-park", 3],
-  ["fitma", 1],
-  ["tophit", 21],
+  ["commercial-landing", 8],
+  ["commercial-landing", 16],
+  ["commercial-landing", 22],
+  ["commercial-landing", 29],
+  ["commercial-landing", 35],
 ];
 
 function renderLanding(limit = landingItems.length) {
