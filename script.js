@@ -1,108 +1,198 @@
 const projects = [
   {
-    title: "TOPHIT STORE",
-    slug: "tophit",
-    category: "IP Worlds",
-    tone: "复古街头、咖啡、啤酒、运动与节日主题",
-    count: 32,
-    feature: [3, 14, 21, 18],
+    "title": "TOPHIT STORE",
+    "slug": "tophit",
+    "category": "IP Worlds",
+    "tone": "??????????????????",
+    "count": 32,
+    "feature": [
+      3,
+      14,
+      21,
+      18
+    ]
   },
   {
-    title: "EFAC",
-    slug: "efac",
-    category: "IP Worlds",
-    tone: "咖啡店节日视觉、贴纸周边与门店氛围",
-    count: 17,
-    feature: [1, 10, 12, 17],
+    "title": "EFAC",
+    "slug": "efac",
+    "category": "IP Worlds",
+    "tone": "?????????????????",
+    "count": 26,
+    "feature": [
+      1,
+      10,
+      17,
+      24
+    ]
   },
   {
-    title: "Potato Brew",
-    slug: "potatodrew",
-    category: "Brand Systems",
-    tone: "餐饮品牌角色、招牌、杯垫与门店物料",
-    count: 8,
-    feature: [2, 4, 6, 8],
+    "title": "Potato Brew",
+    "slug": "potatodrew",
+    "category": "Brand Systems",
+    "tone": "?????????????????",
+    "count": 13,
+    "feature": [
+      2,
+      4,
+      8,
+      12
+    ]
   },
   {
-    title: "Circle Burger",
-    slug: "circle-burger",
-    category: "IP Worlds",
-    tone: "汉堡角色、复古广告与门店导视",
-    count: 9,
-    feature: [1, 2, 6, 8],
+    "title": "Circle Burger",
+    "slug": "circle-burger",
+    "category": "IP Worlds",
+    "tone": "??????????????",
+    "count": 10,
+    "feature": [
+      1,
+      2,
+      6,
+      9
+    ]
   },
   {
-    title: "Play Box",
-    slug: "play-box",
-    category: "IP Worlds",
-    tone: "剧场盒子角色、活动海报与线下场景",
-    count: 7,
-    feature: [2, 3, 5, 7],
+    "title": "??",
+    "slug": "vinyl-tour",
+    "category": "IP Worlds",
+    "tone": "????????????????",
+    "count": 17,
+    "feature": [
+      1,
+      2,
+      8,
+      15
+    ]
   },
   {
-    title: "Strong Burger",
-    slug: "strongburger",
-    category: "Brand Systems",
-    tone: "强壮汉堡门店、招牌与物料陈列",
-    count: 6,
-    feature: [2, 3, 5, 6],
+    "title": "Play Box",
+    "slug": "play-box",
+    "category": "IP Worlds",
+    "tone": "????????????????",
+    "count": 7,
+    "feature": [
+      2,
+      3,
+      5,
+      7
+    ]
   },
   {
-    title: "满攒精酿",
-    slug: "manzan-brew",
-    category: "Brand Systems",
-    tone: "精酿品牌、熊形角色与高饱和海报",
-    count: 3,
-    feature: [1, 2, 3],
+    "title": "Strong Burger",
+    "slug": "strongburger",
+    "category": "Brand Systems",
+    "tone": "??????????????",
+    "count": 17,
+    "feature": [
+      2,
+      3,
+      9,
+      15
+    ]
   },
   {
-    title: "Hotdog Park",
-    slug: "hotdog-park",
-    category: "Commercial Landing",
-    tone: "热狗餐饮品牌包装、门店与周边",
-    count: 3,
-    feature: [1, 2, 3],
+    "title": "????",
+    "slug": "manzan-brew",
+    "category": "Brand Systems",
+    "tone": "???????????????",
+    "count": 19,
+    "feature": [
+      1,
+      3,
+      8,
+      18
+    ]
   },
   {
-    title: "胶游",
-    slug: "vinyl-tour",
-    category: "Playful Experiments",
-    tone: "音乐唱片、角色周边与蓝色视觉系统",
-    count: 5,
-    feature: [1, 2, 3, 5],
+    "title": "??",
+    "slug": "ganlu",
+    "category": "Brand Systems",
+    "tone": "????????????????",
+    "count": 11,
+    "feature": [
+      1,
+      4,
+      7,
+      10
+    ]
   },
   {
-    title: "FITMA",
-    slug: "fitma",
-    category: "Commercial Landing",
-    tone: "杯具、纸袋与轻量品牌物料",
-    count: 2,
-    feature: [1, 2],
+    "title": "????",
+    "slug": "chunji-izakaya",
+    "category": "Commercial Landing",
+    "tone": "????????????????",
+    "count": 10,
+    "feature": [
+      1,
+      3,
+      6,
+      9
+    ]
   },
   {
-    title: "Posters & Campaigns",
-    slug: "posters",
-    category: "Posters",
-    tone: "餐饮促销、汉堡结构与高密度广告排版",
-    count: 8,
-    feature: [1, 2, 3, 8],
+    "title": "Hotdog Park",
+    "slug": "hotdog-park",
+    "category": "Commercial Landing",
+    "tone": "??????????????",
+    "count": 3,
+    "feature": [
+      1,
+      2,
+      3
+    ]
   },
   {
-    title: "Commercial Landing",
-    slug: "commercial-landing",
-    category: "Commercial Landing",
-    tone: "服装、包装、门店、杯具与立体公仔",
-    count: 14,
-    feature: [2, 4, 6, 12],
+    "title": "FIT?S MA",
+    "slug": "fits-ma",
+    "category": "Commercial Landing",
+    "tone": "????????????",
+    "count": 12,
+    "feature": [
+      1,
+      3,
+      8,
+      12
+    ]
   },
   {
-    title: "Playful Experiments",
-    slug: "playful-experiments",
-    category: "Playful Experiments",
-    tone: "角色合集、Logo合集与持续更新实验",
-    count: 12,
-    feature: [1, 2, 4, 9],
+    "title": "Posters & Campaigns",
+    "slug": "posters",
+    "category": "Posters",
+    "tone": "?????????????????",
+    "count": 24,
+    "feature": [
+      1,
+      4,
+      12,
+      20
+    ]
   },
+  {
+    "title": "Commercial Landing",
+    "slug": "commercial-landing",
+    "category": "Commercial Landing",
+    "tone": "????????????????",
+    "count": 35,
+    "feature": [
+      2,
+      8,
+      16,
+      28
+    ]
+  },
+  {
+    "title": "Playful Experiments",
+    "slug": "playful-experiments",
+    "category": "Playful Experiments",
+    "tone": "?????Logo?????????",
+    "count": 12,
+    "feature": [
+      1,
+      2,
+      4,
+      9
+    ]
+  }
 ];
 
 const imagePath = (slug, index) =>
@@ -317,14 +407,14 @@ function makeArchiveCard(project) {
   return article;
 }
 
-const featuredInitialCount = isMobileViewport ? 3 : 5;
+const featuredInitialCount = isMobileViewport ? 3 : 6;
 projects.slice(0, featuredInitialCount).forEach((project, index) => {
   featured.append(makeCard(project, index));
 });
 
 function renderRemainingFeatured() {
   if (!isMobileViewport || featured.dataset.complete === "true") return;
-  projects.slice(featuredInitialCount, 5).forEach((project, index) => {
+  projects.slice(featuredInitialCount, 6).forEach((project, index) => {
     featured.append(makeCard(project, index + featuredInitialCount));
   });
   featured.dataset.complete = "true";
@@ -420,6 +510,36 @@ document.querySelectorAll(".creator-image").forEach((button) => {
     openLightbox(button.dataset.src, button.dataset.caption),
   );
 });
+
+const musicButton = document.querySelector(".music-toggle");
+let retroAudio;
+
+if (musicButton) {
+  musicButton.addEventListener("click", async () => {
+    if (!retroAudio) {
+      retroAudio = new Audio("assets/audio/retro-loop.wav");
+      retroAudio.loop = true;
+      retroAudio.volume = 0.22;
+    }
+    if (retroAudio.paused) {
+      try {
+        await retroAudio.play();
+        musicButton.textContent = "MUSIC PAUSE";
+        musicButton.setAttribute("aria-pressed", "true");
+        musicButton.classList.add("is-playing");
+      } catch (error) {
+        musicButton.textContent = "MUSIC PLAY";
+        musicButton.setAttribute("aria-pressed", "false");
+        musicButton.classList.remove("is-playing");
+      }
+    } else {
+      retroAudio.pause();
+      musicButton.textContent = "MUSIC PLAY";
+      musicButton.setAttribute("aria-pressed", "false");
+      musicButton.classList.remove("is-playing");
+    }
+  });
+}
 
 closeLightbox.addEventListener("click", closeLightboxPanel);
 prevLightbox.addEventListener("click", () => moveLightbox(-1));

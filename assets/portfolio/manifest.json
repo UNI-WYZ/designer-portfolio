@@ -2,900 +2,2487 @@
   "projects": [
     {
       "title": "TOPHIT STORE",
+      "slug": "tophit",
       "category": "IP Worlds",
       "tone": "??????????????????",
       "priority": 1,
-      "slug": "tophit",
-      "sourceGroup": "TOPHIT",
       "count": 32,
+      "feature": [
+        3,
+        14,
+        21,
+        18
+      ],
+      "sourceGroup": "TOPHIT",
       "images": [
         {
           "src": "assets/portfolio/tophit-01.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-01.jpg",
           "source": "IP角色/TOPHIT/1-初始IP.jpg",
           "w": 1350,
-          "h": 1800
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-02.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-02.jpg",
           "source": "IP角色/TOPHIT/1-西装IP以及落地 (6).jpg",
           "w": 810,
-          "h": 1800
+          "h": 1800,
+          "tw": 342,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-03.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-03.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (1).jpg",
           "w": 1800,
-          "h": 1384
+          "h": 1384,
+          "tw": 760,
+          "th": 584
         },
         {
           "src": "assets/portfolio/tophit-04.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-04.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (1).png",
           "w": 1290,
-          "h": 1800
+          "h": 1800,
+          "tw": 545,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-05.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-05.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (2).jpg",
           "w": 1440,
-          "h": 1800
+          "h": 1800,
+          "tw": 608,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-06.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-06.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (2).png",
           "w": 1800,
-          "h": 1269
+          "h": 1269,
+          "tw": 760,
+          "th": 536
         },
         {
           "src": "assets/portfolio/tophit-07.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-07.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (3).jpg",
           "w": 1800,
-          "h": 366
+          "h": 366,
+          "tw": 760,
+          "th": 155
         },
         {
           "src": "assets/portfolio/tophit-08.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-08.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (3).png",
           "w": 1800,
-          "h": 1741
+          "h": 1741,
+          "tw": 760,
+          "th": 735
         },
         {
           "src": "assets/portfolio/tophit-09.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-09.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (4).jpg",
           "w": 1800,
-          "h": 784
+          "h": 784,
+          "tw": 760,
+          "th": 331
         },
         {
           "src": "assets/portfolio/tophit-10.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-10.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (4).png",
           "w": 1800,
-          "h": 1269
+          "h": 1269,
+          "tw": 760,
+          "th": 536
         },
         {
           "src": "assets/portfolio/tophit-11.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-11.jpg",
           "source": "IP角色/TOPHIT/2-IP西装主题 (5).jpg",
           "w": 1800,
-          "h": 548
+          "h": 548,
+          "tw": 760,
+          "th": 231
         },
         {
           "src": "assets/portfolio/tophit-12.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-12.jpg",
           "source": "IP角色/TOPHIT/3-IP圣诞主题 (1).jpg",
           "w": 1467,
-          "h": 1080
+          "h": 1080,
+          "tw": 760,
+          "th": 560
         },
         {
           "src": "assets/portfolio/tophit-13.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-13.jpg",
           "source": "IP角色/TOPHIT/3-IP圣诞主题 (2).jpg",
           "w": 1363,
-          "h": 1800
+          "h": 1800,
+          "tw": 575,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-14.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-14.jpg",
           "source": "IP角色/TOPHIT/4-IP运动主题 (1).jpg",
           "w": 1350,
-          "h": 1800
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-15.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-15.jpg",
           "source": "IP角色/TOPHIT/4-IP运动主题 (2).jpg",
           "w": 1800,
-          "h": 1384
+          "h": 1384,
+          "tw": 760,
+          "th": 584
         },
         {
           "src": "assets/portfolio/tophit-16.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-16.jpg",
           "source": "IP角色/TOPHIT/4-IP运动主题 (3).jpg",
           "w": 1440,
-          "h": 1800
+          "h": 1800,
+          "tw": 608,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-17.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-17.jpg",
           "source": "IP角色/TOPHIT/5-IP龙年主题 (1).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-18.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-18.jpg",
           "source": "IP角色/TOPHIT/5-IP龙年主题 (2).jpg",
           "w": 1269,
-          "h": 1800
+          "h": 1800,
+          "tw": 536,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-19.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-19.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (1).jpg",
           "w": 828,
-          "h": 1104
+          "h": 1104,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-20.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-20.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (10).jpg",
           "w": 802,
-          "h": 1069
+          "h": 1069,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-21.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-21.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (11).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-22.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-22.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (12).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-23.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-23.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (13).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-24.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-24.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (14).jpg",
           "w": 828,
-          "h": 1104
+          "h": 1104,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-25.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-25.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (2).jpg",
           "w": 1280,
-          "h": 1707
+          "h": 1707,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-26.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-26.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (3).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-27.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-27.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (4).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-28.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-28.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (5).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-29.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-29.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (6).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-30.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-30.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (7).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-31.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-31.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (8).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/tophit-32.jpg",
+          "thumb": "assets/portfolio/thumbs/tophit-32.jpg",
           "source": "IP角色/TOPHIT/6-IP落地氛围 (9).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         }
       ]
     },
     {
       "title": "EFAC",
+      "slug": "efac",
       "category": "IP Worlds",
       "tone": "?????????????????",
       "priority": 2,
-      "slug": "efac",
+      "count": 26,
+      "feature": [
+        1,
+        10,
+        17,
+        24
+      ],
       "sourceGroup": "EFAC",
-      "count": 17,
       "images": [
         {
           "src": "assets/portfolio/efac-01.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-01.jpg",
           "source": "IP角色/EFAC/1-IP圣诞主题 (1).jpg",
           "w": 1440,
-          "h": 1080
+          "h": 1080,
+          "tw": 760,
+          "th": 570
         },
         {
           "src": "assets/portfolio/efac-02.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-02.jpg",
           "source": "IP角色/EFAC/1-IP圣诞主题 (2).jpg",
           "w": 1800,
-          "h": 1010
+          "h": 1010,
+          "tw": 760,
+          "th": 427
         },
         {
           "src": "assets/portfolio/efac-03.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-03.jpg",
           "source": "IP角色/EFAC/1-IP圣诞主题 (3).jpg",
           "w": 1080,
-          "h": 1620
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-04.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-04.jpg",
           "source": "IP角色/EFAC/1-IP圣诞主题 (4).jpg",
           "w": 1800,
-          "h": 1010
+          "h": 1010,
+          "tw": 760,
+          "th": 427
         },
         {
           "src": "assets/portfolio/efac-05.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-05.jpg",
           "source": "IP角色/EFAC/1-IP圣诞主题 (5).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-06.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-06.jpg",
           "source": "IP角色/EFAC/2-IP2周年 (1).jpg",
           "w": 1080,
-          "h": 1118
+          "h": 1118,
+          "tw": 734,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-07.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-07.jpg",
           "source": "IP角色/EFAC/2-IP2周年 (2).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-08.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-08.jpg",
           "source": "IP角色/EFAC/2-IP2周年 (3).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-09.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-09.jpg",
           "source": "IP角色/EFAC/2-IP2周年 (4).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-10.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-10.jpg",
           "source": "IP角色/EFAC/3-IP周边 (1).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-11.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-11.jpg",
           "source": "IP角色/EFAC/3-IP周边 (2).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-12.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-12.jpg",
           "source": "IP角色/EFAC/3-IP周边 (3).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-13.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-13.jpg",
           "source": "IP角色/EFAC/3-IP周边 (4).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-14.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-14.jpg",
           "source": "IP角色/EFAC/3-IP周边 (5).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-15.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-15.jpg",
           "source": "IP角色/EFAC/3-IP周边 (6).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-16.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-16.jpg",
           "source": "IP角色/EFAC/3-IP周边 (7).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/efac-17.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-17.jpg",
           "source": "IP角色/EFAC/4-IP集合.jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-18.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-18.jpg",
+          "source": "IP角色/EFAC/Q版本 EFAC.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-19.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-19.jpg",
+          "source": "IP角色/EFAC/小王子bear-背面_画板 1 副本 8.jpg",
+          "w": 1357,
+          "h": 1800,
+          "tw": 573,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-20.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-20.jpg",
+          "source": "IP角色/EFAC/小王子bear_画板 1 副本 6.jpg",
+          "w": 1357,
+          "h": 1800,
+          "tw": 573,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-21.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-21.jpg",
+          "source": "IP角色/EFAC/微信图片_2026-06-03_104519_555.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-22.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-22.jpg",
+          "source": "IP角色/EFAC/微信图片_2026-06-03_104535_355.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-23.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-23.jpg",
+          "source": "IP角色/EFAC/微信图片_2026-06-03_104656_765.jpg",
+          "w": 1080,
+          "h": 1080,
+          "tw": 760,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-24.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-24.jpg",
+          "source": "IP角色/EFAC/微信图片_2026-06-03_104704_530.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/efac-25.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-25.jpg",
+          "source": "IP角色/EFAC/贴图（转曲）-05.jpg",
+          "w": 1800,
+          "h": 1437,
+          "tw": 760,
+          "th": 607
+        },
+        {
+          "src": "assets/portfolio/efac-26.jpg",
+          "thumb": "assets/portfolio/thumbs/efac-26.jpg",
+          "source": "IP角色/EFAC/边缘_画板 1.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         }
       ]
     },
     {
       "title": "Potato Brew",
+      "slug": "potatodrew",
       "category": "Brand Systems",
       "tone": "?????????????????",
       "priority": 3,
-      "slug": "potatodrew",
+      "count": 13,
+      "feature": [
+        2,
+        4,
+        8,
+        12
+      ],
       "sourceGroup": "POTATODREW",
-      "count": 8,
       "images": [
         {
           "src": "assets/portfolio/potatodrew-01.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-01.jpg",
           "source": "IP角色/POTATODREW/01_初始IP.jpg",
           "w": 746,
-          "h": 1800
+          "h": 1800,
+          "tw": 315,
+          "th": 760
         },
         {
           "src": "assets/portfolio/potatodrew-02.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-02.jpg",
           "source": "IP角色/POTATODREW/02_IP形象拓展.jpg",
           "w": 1165,
-          "h": 1800
+          "h": 1800,
+          "tw": 492,
+          "th": 760
         },
         {
           "src": "assets/portfolio/potatodrew-03.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-03.jpg",
           "source": "IP角色/POTATODREW/03_IP落地 (1).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/potatodrew-04.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-04.jpg",
           "source": "IP角色/POTATODREW/03_IP落地 (2).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/potatodrew-05.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-05.jpg",
           "source": "IP角色/POTATODREW/03_IP落地 (3).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/potatodrew-06.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-06.jpg",
           "source": "IP角色/POTATODREW/03_IP落地 (4).jpg",
           "w": 1350,
-          "h": 1800
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/potatodrew-07.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-07.jpg",
           "source": "IP角色/POTATODREW/03_IP落地 (5).jpg",
           "w": 1350,
-          "h": 1800
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/potatodrew-08.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-08.jpg",
           "source": "IP角色/POTATODREW/03_IP落地 (6).jpg",
           "w": 1350,
-          "h": 1800
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/potatodrew-09.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-09.jpg",
+          "source": "IP角色/POTATODREW/微信图片_2026-06-03_104132_545.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/potatodrew-10.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-10.jpg",
+          "source": "IP角色/POTATODREW/微信图片_2026-06-03_104145_090.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/potatodrew-11.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-11.jpg",
+          "source": "IP角色/POTATODREW/微信图片_2026-06-03_104149_563.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/potatodrew-12.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-12.jpg",
+          "source": "IP角色/POTATODREW/微信图片_2026-06-03_104154_404.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/potatodrew-13.jpg",
+          "thumb": "assets/portfolio/thumbs/potatodrew-13.jpg",
+          "source": "IP角色/POTATODREW/微信图片_2026-06-03_104159_363.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         }
       ]
     },
     {
       "title": "Circle Burger",
+      "slug": "circle-burger",
       "category": "IP Worlds",
       "tone": "??????????????",
       "priority": 4,
-      "slug": "circle-burger",
+      "count": 10,
+      "feature": [
+        1,
+        2,
+        6,
+        9
+      ],
       "sourceGroup": "圆堡",
-      "count": 9,
       "images": [
         {
           "src": "assets/portfolio/circle-burger-01.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-01.jpg",
           "source": "IP角色/圆堡/1-IP.jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-02.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-02.jpg",
           "source": "IP角色/圆堡/2-IP延展&POSTER (1).jpg",
-          "w": 1350,
-          "h": 1800
+          "w": 1080,
+          "h": 1429,
+          "tw": 574,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-03.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-03.jpg",
           "source": "IP角色/圆堡/2-IP延展&POSTER (2).jpg",
-          "w": 1080,
-          "h": 1429
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-04.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-04.jpg",
           "source": "IP角色/圆堡/2-IP延展&POSTER (3).jpg",
           "w": 1080,
-          "h": 1429
+          "h": 1429,
+          "tw": 574,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-05.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-05.jpg",
           "source": "IP角色/圆堡/2-IP延展&POSTER (4).jpg",
-          "w": 1277,
-          "h": 1800
+          "w": 1080,
+          "h": 1429,
+          "tw": 574,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-06.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-06.jpg",
           "source": "IP角色/圆堡/2-IP延展&POSTER (5).jpg",
-          "w": 1350,
-          "h": 1800
+          "w": 1277,
+          "h": 1800,
+          "tw": 539,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-07.jpg",
-          "source": "IP角色/圆堡/3-落地 (1).jpg",
-          "w": 1080,
-          "h": 1440
+          "thumb": "assets/portfolio/thumbs/circle-burger-07.jpg",
+          "source": "IP角色/圆堡/2-IP延展&POSTER (6).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-08.jpg",
-          "source": "IP角色/圆堡/3-落地 (2).jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-08.jpg",
+          "source": "IP角色/圆堡/3-落地 (1).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/circle-burger-09.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-09.jpg",
+          "source": "IP角色/圆堡/3-落地 (2).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/circle-burger-10.jpg",
+          "thumb": "assets/portfolio/thumbs/circle-burger-10.jpg",
           "source": "IP角色/圆堡/3-落地 (3).jpg",
           "w": 1080,
-          "h": 1440
-        }
-      ]
-    },
-    {
-      "title": "Play Box",
-      "category": "IP Worlds",
-      "tone": "????????????????",
-      "priority": 5,
-      "slug": "play-box",
-      "sourceGroup": "剧盒",
-      "count": 7,
-      "images": [
-        {
-          "src": "assets/portfolio/play-box-01.jpg",
-          "source": "IP角色/剧盒/01_Logo.jpg",
-          "w": 1080,
-          "h": 1319
-        },
-        {
-          "src": "assets/portfolio/play-box-02.jpg",
-          "source": "IP角色/剧盒/02_IP.jpg",
-          "w": 1080,
-          "h": 1440
-        },
-        {
-          "src": "assets/portfolio/play-box-03.jpg",
-          "source": "IP角色/剧盒/03_Poster (1).jpg",
-          "w": 1313,
-          "h": 1080
-        },
-        {
-          "src": "assets/portfolio/play-box-04.jpg",
-          "source": "IP角色/剧盒/03_Poster (2).jpg",
-          "w": 1080,
-          "h": 1440
-        },
-        {
-          "src": "assets/portfolio/play-box-05.jpg",
-          "source": "IP角色/剧盒/03_Poster (3).jpg",
-          "w": 1080,
-          "h": 1440
-        },
-        {
-          "src": "assets/portfolio/play-box-06.jpg",
-          "source": "IP角色/剧盒/03_Poster (4).jpg",
-          "w": 1080,
-          "h": 1440
-        },
-        {
-          "src": "assets/portfolio/play-box-07.jpg",
-          "source": "IP角色/剧盒/04_IP落地.jpg",
-          "w": 1620,
-          "h": 1080
-        }
-      ]
-    },
-    {
-      "title": "Strong Burger",
-      "category": "Brand Systems",
-      "tone": "??????????????",
-      "priority": 6,
-      "slug": "strongburger",
-      "sourceGroup": "STRONGBURGER",
-      "count": 6,
-      "images": [
-        {
-          "src": "assets/portfolio/strongburger-01.jpg",
-          "source": "IP角色/STRONGBURGER/微信图片_2026-06-01_201938_120.jpg",
-          "w": 1012,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/strongburger-02.jpg",
-          "source": "IP角色/STRONGBURGER/微信图片_2026-06-01_201959_612.jpg",
-          "w": 1014,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/strongburger-03.jpg",
-          "source": "IP角色/STRONGBURGER/微信图片_2026-06-01_202003_239.jpg",
-          "w": 1011,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/strongburger-04.jpg",
-          "source": "IP角色/STRONGBURGER/微信图片_2026-06-01_202007_743.jpg",
-          "w": 1012,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/strongburger-05.jpg",
-          "source": "IP角色/STRONGBURGER/微信图片_2026-06-01_202014_560.jpg",
-          "w": 1012,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/strongburger-06.jpg",
-          "source": "IP角色/STRONGBURGER/微信图片_2026-06-01_202650_847.jpg",
-          "w": 276,
-          "h": 1800
-        }
-      ]
-    },
-    {
-      "title": "????",
-      "category": "Brand Systems",
-      "tone": "???????????????",
-      "priority": 7,
-      "slug": "manzan-brew",
-      "sourceGroup": "满攒精酿",
-      "count": 3,
-      "images": [
-        {
-          "src": "assets/portfolio/manzan-brew-01.jpg",
-          "source": "IP角色/满攒精酿/1-IP&POSTER (1).jpg",
-          "w": 1080,
-          "h": 1440
-        },
-        {
-          "src": "assets/portfolio/manzan-brew-02.jpg",
-          "source": "IP角色/满攒精酿/1-IP&POSTER (3).jpg",
-          "w": 366,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/manzan-brew-03.jpg",
-          "source": "IP角色/满攒精酿/1-IP&POSTER (4).jpg",
-          "w": 1080,
-          "h": 1440
-        }
-      ]
-    },
-    {
-      "title": "Hotdog Park",
-      "category": "Commercial Landing",
-      "tone": "??????????????",
-      "priority": 8,
-      "slug": "hotdog-park",
-      "sourceGroup": "热狗公园",
-      "count": 3,
-      "images": [
-        {
-          "src": "assets/portfolio/hotdog-park-01.jpg",
-          "source": "IP角色/热狗公园/1-IP (1).jpg",
-          "w": 712,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/hotdog-park-02.jpg",
-          "source": "IP角色/热狗公园/1-IP (2).jpg",
-          "w": 715,
-          "h": 1800
-        },
-        {
-          "src": "assets/portfolio/hotdog-park-03.jpg",
-          "source": "IP角色/热狗公园/2-IP落地.jpg",
-          "w": 1656,
-          "h": 1104
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         }
       ]
     },
     {
       "title": "??",
-      "category": "Playful Experiments",
-      "tone": "????????????????",
-      "priority": 9,
       "slug": "vinyl-tour",
+      "category": "IP Worlds",
+      "tone": "????????????????",
+      "priority": 5,
+      "count": 17,
+      "feature": [
+        1,
+        2,
+        8,
+        15
+      ],
       "sourceGroup": "胶游",
-      "count": 5,
       "images": [
         {
           "src": "assets/portfolio/vinyl-tour-01.jpg",
-          "source": "IP角色/胶游/1-IP.jpg",
-          "w": 622,
-          "h": 1800
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-01.jpg",
+          "source": "IP角色/胶游/1-IP形象.jpg",
+          "w": 1181,
+          "h": 1748,
+          "tw": 513,
+          "th": 760
         },
         {
           "src": "assets/portfolio/vinyl-tour-02.jpg",
-          "source": "IP角色/胶游/2-IP落地 (1).jpg",
-          "w": 828,
-          "h": 1104
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-02.jpg",
+          "source": "IP角色/胶游/1-IP形象.png",
+          "w": 510,
+          "h": 561,
+          "tw": 510,
+          "th": 561
         },
         {
           "src": "assets/portfolio/vinyl-tour-03.jpg",
-          "source": "IP角色/胶游/2-IP落地 (2).jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-03.jpg",
+          "source": "IP角色/胶游/2-IP落地 (1).jpg",
           "w": 828,
-          "h": 1104
+          "h": 1104,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/vinyl-tour-04.jpg",
-          "source": "IP角色/胶游/2-IP落地 (3).jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-04.jpg",
+          "source": "IP角色/胶游/2-IP落地 (2).jpg",
           "w": 828,
-          "h": 1104
+          "h": 1104,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/vinyl-tour-05.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-05.jpg",
+          "source": "IP角色/胶游/2-IP落地 (3).jpg",
+          "w": 828,
+          "h": 1104,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-06.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-06.jpg",
           "source": "IP角色/胶游/2-IP落地 (4).jpg",
           "w": 828,
-          "h": 1104
+          "h": 1104,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-07.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-07.jpg",
+          "source": "IP角色/胶游/3-IP延展 (1).jpg",
+          "w": 1748,
+          "h": 1181,
+          "tw": 760,
+          "th": 513
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-08.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-08.jpg",
+          "source": "IP角色/胶游/3-IP延展 (1).png",
+          "w": 242,
+          "h": 334,
+          "tw": 242,
+          "th": 334
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-09.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-09.jpg",
+          "source": "IP角色/胶游/3-IP延展 (2).png",
+          "w": 305,
+          "h": 333,
+          "tw": 305,
+          "th": 333
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-10.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-10.jpg",
+          "source": "IP角色/胶游/3-IP延展 (3).png",
+          "w": 348,
+          "h": 388,
+          "tw": 348,
+          "th": 388
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-11.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-11.jpg",
+          "source": "IP角色/胶游/3-IP延展 (4).png",
+          "w": 386,
+          "h": 346,
+          "tw": 386,
+          "th": 346
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-12.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-12.jpg",
+          "source": "IP角色/胶游/3-IP延展 (5).png",
+          "w": 327,
+          "h": 296,
+          "tw": 327,
+          "th": 296
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-13.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-13.jpg",
+          "source": "IP角色/胶游/3-IP延展 (6).png",
+          "w": 1800,
+          "h": 1384,
+          "tw": 760,
+          "th": 584
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-14.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-14.jpg",
+          "source": "IP角色/胶游/4-IP漫画 (1).png",
+          "w": 1630,
+          "h": 1800,
+          "tw": 688,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-15.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-15.jpg",
+          "source": "IP角色/胶游/4-IP漫画 (2).png",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-16.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-16.jpg",
+          "source": "IP角色/胶游/4-IP漫画 (3).png",
+          "w": 1217,
+          "h": 1800,
+          "tw": 514,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/vinyl-tour-17.jpg",
+          "thumb": "assets/portfolio/thumbs/vinyl-tour-17.jpg",
+          "source": "IP角色/胶游/IP长图.jpg",
+          "w": 622,
+          "h": 1800,
+          "tw": 263,
+          "th": 760
         }
       ]
     },
     {
-      "title": "FITMA",
-      "category": "Commercial Landing",
-      "tone": "????????????",
-      "priority": 10,
-      "slug": "fitma",
-      "sourceGroup": "FITMA",
-      "count": 2,
+      "title": "Play Box",
+      "slug": "play-box",
+      "category": "IP Worlds",
+      "tone": "????????????????",
+      "priority": 6,
+      "count": 7,
+      "feature": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "sourceGroup": "剧盒",
       "images": [
         {
-          "src": "assets/portfolio/fitma-01.jpg",
-          "source": "IP角色/FITMA/微信图片_2026-06-01_215100_193.jpg",
-          "w": 828,
-          "h": 1186
+          "src": "assets/portfolio/play-box-01.jpg",
+          "thumb": "assets/portfolio/thumbs/play-box-01.jpg",
+          "source": "IP角色/剧盒/01_Logo.jpg",
+          "w": 1080,
+          "h": 1319,
+          "tw": 622,
+          "th": 760
         },
         {
-          "src": "assets/portfolio/fitma-02.jpg",
-          "source": "IP角色/FITMA/微信图片_2026-06-01_215107_431.jpg",
+          "src": "assets/portfolio/play-box-02.jpg",
+          "thumb": "assets/portfolio/thumbs/play-box-02.jpg",
+          "source": "IP角色/剧盒/02_IP.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/play-box-03.jpg",
+          "thumb": "assets/portfolio/thumbs/play-box-03.jpg",
+          "source": "IP角色/剧盒/03_Poster (1).jpg",
+          "w": 1313,
+          "h": 1080,
+          "tw": 760,
+          "th": 625
+        },
+        {
+          "src": "assets/portfolio/play-box-04.jpg",
+          "thumb": "assets/portfolio/thumbs/play-box-04.jpg",
+          "source": "IP角色/剧盒/03_Poster (2).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/play-box-05.jpg",
+          "thumb": "assets/portfolio/thumbs/play-box-05.jpg",
+          "source": "IP角色/剧盒/03_Poster (3).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/play-box-06.jpg",
+          "thumb": "assets/portfolio/thumbs/play-box-06.jpg",
+          "source": "IP角色/剧盒/03_Poster (4).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/play-box-07.jpg",
+          "thumb": "assets/portfolio/thumbs/play-box-07.jpg",
+          "source": "IP角色/剧盒/04_IP落地.jpg",
+          "w": 1620,
+          "h": 1080,
+          "tw": 760,
+          "th": 507
+        }
+      ]
+    },
+    {
+      "title": "Strong Burger",
+      "slug": "strongburger",
+      "category": "Brand Systems",
+      "tone": "??????????????",
+      "priority": 7,
+      "count": 17,
+      "feature": [
+        2,
+        3,
+        9,
+        15
+      ],
+      "sourceGroup": "STRONGBURGER",
+      "images": [
+        {
+          "src": "assets/portfolio/strongburger-01.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-01.jpg",
+          "source": "IP角色/STRONGBURGER/1-IP poster (1).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-02.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-02.jpg",
+          "source": "IP角色/STRONGBURGER/1-IP poster (2).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-03.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-03.jpg",
+          "source": "IP角色/STRONGBURGER/1-IP poster (3).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-04.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-04.jpg",
+          "source": "IP角色/STRONGBURGER/1-IP poster (4).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-05.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-05.jpg",
+          "source": "IP角色/STRONGBURGER/1-IP poster (5).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-06.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-06.jpg",
+          "source": "IP角色/STRONGBURGER/2-商业海报 (1).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-07.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-07.jpg",
+          "source": "IP角色/STRONGBURGER/2-商业海报 (2).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-08.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-08.jpg",
+          "source": "IP角色/STRONGBURGER/2-商业海报 (3).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-09.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-09.jpg",
+          "source": "IP角色/STRONGBURGER/2-商业海报 (4).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-10.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-10.jpg",
+          "source": "IP角色/STRONGBURGER/3-物料落地 (1).jpg",
+          "w": 1012,
+          "h": 1800,
+          "tw": 427,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-11.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-11.jpg",
+          "source": "IP角色/STRONGBURGER/3-物料落地 (2).jpg",
+          "w": 1012,
+          "h": 1800,
+          "tw": 427,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-12.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-12.jpg",
+          "source": "IP角色/STRONGBURGER/3-物料落地 (3).jpg",
+          "w": 1014,
+          "h": 1800,
+          "tw": 428,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-13.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-13.jpg",
+          "source": "IP角色/STRONGBURGER/3-物料落地 (4).jpg",
+          "w": 1011,
+          "h": 1800,
+          "tw": 427,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-14.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-14.jpg",
+          "source": "IP角色/STRONGBURGER/3-物料落地 (5).jpg",
+          "w": 1012,
+          "h": 1800,
+          "tw": 427,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-15.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-15.jpg",
+          "source": "IP角色/STRONGBURGER/4-小狗ip.jpg",
+          "w": 276,
+          "h": 1800,
+          "tw": 116,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/strongburger-16.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-16.jpg",
+          "source": "IP角色/STRONGBURGER/ScreenShot_2026-06-03_103722_218.png",
+          "w": 561,
+          "h": 633,
+          "tw": 561,
+          "th": 633
+        },
+        {
+          "src": "assets/portfolio/strongburger-17.jpg",
+          "thumb": "assets/portfolio/thumbs/strongburger-17.jpg",
+          "source": "IP角色/STRONGBURGER/微信图片_2026-06-03_104326_082.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        }
+      ]
+    },
+    {
+      "title": "????",
+      "slug": "manzan-brew",
+      "category": "Brand Systems",
+      "tone": "???????????????",
+      "priority": 8,
+      "count": 19,
+      "feature": [
+        1,
+        3,
+        8,
+        18
+      ],
+      "sourceGroup": "满攒精酿",
+      "images": [
+        {
+          "src": "assets/portfolio/manzan-brew-01.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-01.jpg",
+          "source": "IP角色/满攒精酿/1-IP小熊 (1).jpg",
+          "w": 1410,
+          "h": 1800,
+          "tw": 595,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-02.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-02.jpg",
+          "source": "IP角色/满攒精酿/1-IP小熊 (1).png",
+          "w": 423,
+          "h": 861,
+          "tw": 373,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-03.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-03.jpg",
+          "source": "IP角色/满攒精酿/1-IP小熊 (2).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-04.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-04.jpg",
+          "source": "IP角色/满攒精酿/1-IP小熊 (3).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-05.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-05.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (1).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-06.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-06.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (10).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-07.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-07.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (11).jpg",
+          "w": 1165,
+          "h": 1800,
+          "tw": 492,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-08.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-08.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (12).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-09.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-09.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (13).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-10.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-10.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (14).jpg",
+          "w": 1181,
+          "h": 1772,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-11.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-11.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (15).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-12.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-12.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (2).jpg",
+          "w": 1080,
+          "h": 1800,
+          "tw": 456,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-13.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-13.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (3).jpg",
+          "w": 1238,
+          "h": 1800,
+          "tw": 523,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-14.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-14.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (4).jpg",
+          "w": 1273,
+          "h": 1800,
+          "tw": 538,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-15.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-15.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (5).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-16.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-16.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (6).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-17.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-17.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (7).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-18.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-18.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (8).jpg",
+          "w": 1417,
+          "h": 1181,
+          "tw": 760,
+          "th": 633
+        },
+        {
+          "src": "assets/portfolio/manzan-brew-19.jpg",
+          "thumb": "assets/portfolio/thumbs/manzan-brew-19.jpg",
+          "source": "IP角色/满攒精酿/2-品牌活动海报 (9).jpg",
+          "w": 1286,
+          "h": 1800,
+          "tw": 543,
+          "th": 760
+        }
+      ]
+    },
+    {
+      "title": "??",
+      "slug": "ganlu",
+      "category": "Brand Systems",
+      "tone": "????????????????",
+      "priority": 9,
+      "count": 11,
+      "feature": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "sourceGroup": "柑露",
+      "images": [
+        {
+          "src": "assets/portfolio/ganlu-01.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-01.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (1).png",
+          "w": 1387,
+          "h": 1800,
+          "tw": 585,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-02.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-02.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (2).png",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-03.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-03.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (3).png",
+          "w": 1367,
+          "h": 1560,
+          "tw": 666,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-04.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-04.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (4).png",
+          "w": 1367,
+          "h": 1560,
+          "tw": 666,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-05.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-05.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (5).png",
+          "w": 1367,
+          "h": 1560,
+          "tw": 666,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-06.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-06.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (6).png",
+          "w": 1367,
+          "h": 1560,
+          "tw": 666,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-07.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-07.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (7).png",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-08.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-08.jpg",
+          "source": "IP角色/柑露/1-品牌海报logo (8).png",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-09.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-09.jpg",
+          "source": "IP角色/柑露/2-品牌落地 (1).jpg",
+          "w": 837,
+          "h": 1115,
+          "tw": 571,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-10.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-10.jpg",
+          "source": "IP角色/柑露/2-品牌落地 (2).jpg",
+          "w": 846,
+          "h": 1107,
+          "tw": 581,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/ganlu-11.jpg",
+          "thumb": "assets/portfolio/thumbs/ganlu-11.jpg",
+          "source": "IP角色/柑露/2-品牌落地 (3).jpg",
+          "w": 849,
+          "h": 1131,
+          "tw": 571,
+          "th": 760
+        }
+      ]
+    },
+    {
+      "title": "????",
+      "slug": "chunji-izakaya",
+      "category": "Commercial Landing",
+      "tone": "????????????????",
+      "priority": 10,
+      "count": 10,
+      "feature": [
+        1,
+        3,
+        6,
+        9
+      ],
+      "sourceGroup": "椿记酒屋",
+      "images": [
+        {
+          "src": "assets/portfolio/chunji-izakaya-01.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-01.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (1).jpg",
+          "w": 499,
+          "h": 1800,
+          "tw": 211,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-02.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-02.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (10).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-03.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-03.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (2).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-04.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-04.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (3).jpg",
+          "w": 776,
+          "h": 1800,
+          "tw": 328,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-05.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-05.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (4).jpg",
+          "w": 1273,
+          "h": 1800,
+          "tw": 537,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-06.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-06.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (5).jpg",
+          "w": 1273,
+          "h": 1800,
+          "tw": 537,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-07.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-07.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (6).jpg",
+          "w": 1249,
+          "h": 1800,
+          "tw": 527,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-08.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-08.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (7).jpg",
+          "w": 1347,
+          "h": 1800,
+          "tw": 569,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-09.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-09.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (8).jpg",
+          "w": 1800,
+          "h": 1273,
+          "tw": 760,
+          "th": 537
+        },
+        {
+          "src": "assets/portfolio/chunji-izakaya-10.jpg",
+          "thumb": "assets/portfolio/thumbs/chunji-izakaya-10.jpg",
+          "source": "IP角色/椿记酒屋/品牌海报 (9).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        }
+      ]
+    },
+    {
+      "title": "Hotdog Park",
+      "slug": "hotdog-park",
+      "category": "Commercial Landing",
+      "tone": "??????????????",
+      "priority": 11,
+      "count": 3,
+      "feature": [
+        1,
+        2,
+        3
+      ],
+      "sourceGroup": "热狗公园",
+      "images": [
+        {
+          "src": "assets/portfolio/hotdog-park-01.jpg",
+          "thumb": "assets/portfolio/thumbs/hotdog-park-01.jpg",
+          "source": "IP角色/热狗公园/1-IP (1).jpg",
+          "w": 712,
+          "h": 1800,
+          "tw": 301,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/hotdog-park-02.jpg",
+          "thumb": "assets/portfolio/thumbs/hotdog-park-02.jpg",
+          "source": "IP角色/热狗公园/1-IP (2).jpg",
+          "w": 715,
+          "h": 1800,
+          "tw": 302,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/hotdog-park-03.jpg",
+          "thumb": "assets/portfolio/thumbs/hotdog-park-03.jpg",
+          "source": "IP角色/热狗公园/2-IP落地.jpg",
+          "w": 1656,
+          "h": 1104,
+          "tw": 760,
+          "th": 507
+        }
+      ]
+    },
+    {
+      "title": "FIT?S MA",
+      "slug": "fits-ma",
+      "category": "Commercial Landing",
+      "tone": "????????????",
+      "priority": 12,
+      "count": 12,
+      "feature": [
+        1,
+        3,
+        8,
+        12
+      ],
+      "sourceGroup": "FIT'S MA",
+      "images": [
+        {
+          "src": "assets/portfolio/fits-ma-01.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-01.jpg",
+          "source": "IP角色/FIT'S MA/1-原始IP.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-02.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-02.jpg",
+          "source": "IP角色/FIT'S MA/2-IP延展.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-03.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-03.jpg",
+          "source": "IP角色/FIT'S MA/3-醒狮IP (1).jpg",
+          "w": 583,
+          "h": 827,
+          "tw": 536,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-04.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-04.jpg",
+          "source": "IP角色/FIT'S MA/3-醒狮IP (5).jpg",
+          "w": 1800,
+          "h": 746,
+          "tw": 760,
+          "th": 315
+        },
+        {
+          "src": "assets/portfolio/fits-ma-05.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-05.jpg",
+          "source": "IP角色/FIT'S MA/3-醒狮IP (6).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-06.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-06.jpg",
+          "source": "IP角色/FIT'S MA/3-醒狮IP (7).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-07.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-07.jpg",
+          "source": "IP角色/FIT'S MA/3-醒狮IP (8).jpg",
+          "w": 583,
+          "h": 827,
+          "tw": 536,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-08.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-08.jpg",
+          "source": "IP角色/FIT'S MA/4-物料落地 (1).jpg",
+          "w": 792,
+          "h": 1056,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-09.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-09.jpg",
+          "source": "IP角色/FIT'S MA/4-物料落地 (2).jpg",
           "w": 828,
-          "h": 1180
+          "h": 1186,
+          "tw": 531,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-10.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-10.jpg",
+          "source": "IP角色/FIT'S MA/4-物料落地 (3).jpg",
+          "w": 828,
+          "h": 1180,
+          "tw": 533,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-11.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-11.jpg",
+          "source": "IP角色/FIT'S MA/4-物料落地 (4).jpg",
+          "w": 814,
+          "h": 1085,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/fits-ma-12.jpg",
+          "thumb": "assets/portfolio/thumbs/fits-ma-12.jpg",
+          "source": "IP角色/FIT'S MA/IP海报.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         }
       ]
     },
     {
       "title": "Posters & Campaigns",
+      "slug": "posters",
       "category": "Posters",
       "tone": "?????????????????",
-      "priority": 11,
-      "slug": "posters",
+      "priority": 13,
+      "count": 24,
+      "feature": [
+        1,
+        4,
+        12,
+        20
+      ],
       "sourceGroup": "海报",
-      "count": 8,
       "images": [
         {
           "src": "assets/portfolio/posters-01.jpg",
-          "source": "海报/ChatGPT Image 2026年5月9日 16_28_59.png",
-          "w": 1024,
-          "h": 1536
+          "thumb": "assets/portfolio/thumbs/posters-01.jpg",
+          "source": "海报/微信图片_2026-06-03_104245_355.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/posters-02.jpg",
-          "source": "海报/分层汉堡海报-01.jpg",
-          "w": 1200,
-          "h": 1800
+          "thumb": "assets/portfolio/thumbs/posters-02.jpg",
+          "source": "海报/微信图片_2026-06-03_104253_076.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/posters-03.jpg",
-          "source": "海报/分层汉堡海报-02.jpg",
-          "w": 1200,
-          "h": 1800
+          "thumb": "assets/portfolio/thumbs/posters-03.jpg",
+          "source": "海报/活动海报 (1).jpg",
+          "w": 1273,
+          "h": 1800,
+          "tw": 537,
+          "th": 760
         },
         {
           "src": "assets/portfolio/posters-04.jpg",
-          "source": "海报/微信图片_2026-06-01_202759_513.jpg",
-          "w": 432,
-          "h": 1800
+          "thumb": "assets/portfolio/thumbs/posters-04.jpg",
+          "source": "海报/活动海报 (1).png",
+          "w": 1024,
+          "h": 1536,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/posters-05.jpg",
-          "source": "海报/微信图片_2026-06-01_220239_443.jpg",
-          "w": 1350,
-          "h": 1800
+          "thumb": "assets/portfolio/thumbs/posters-05.jpg",
+          "source": "海报/活动海报 (10).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/posters-06.jpg",
-          "source": "海报/微信图片_2026-06-01_220252_623.jpg",
-          "w": 1255,
-          "h": 1800
+          "thumb": "assets/portfolio/thumbs/posters-06.jpg",
+          "source": "海报/活动海报 (11).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/posters-07.jpg",
-          "source": "海报/微信图片_2026-06-01_220300_846.jpg",
-          "w": 416,
-          "h": 1800
+          "thumb": "assets/portfolio/thumbs/posters-07.jpg",
+          "source": "海报/活动海报 (12).jpg",
+          "w": 1309,
+          "h": 1800,
+          "tw": 553,
+          "th": 760
         },
         {
           "src": "assets/portfolio/posters-08.jpg",
-          "source": "海报/点酒送披萨.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-08.jpg",
+          "source": "海报/活动海报 (13).jpg",
+          "w": 1309,
+          "h": 1800,
+          "tw": 553,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-09.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-09.jpg",
+          "source": "海报/活动海报 (14).jpg",
+          "w": 1309,
+          "h": 1800,
+          "tw": 553,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-10.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-10.jpg",
+          "source": "海报/活动海报 (15).jpg",
+          "w": 1200,
+          "h": 1800,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-11.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-11.jpg",
+          "source": "海报/活动海报 (16).jpg",
           "w": 1350,
-          "h": 1800
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-12.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-12.jpg",
+          "source": "海报/活动海报 (17).jpg",
+          "w": 1255,
+          "h": 1800,
+          "tw": 530,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-13.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-13.jpg",
+          "source": "海报/活动海报 (2).jpg",
+          "w": 1280,
+          "h": 1706,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-14.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-14.jpg",
+          "source": "海报/活动海报 (2).png",
+          "w": 567,
+          "h": 804,
+          "tw": 536,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-15.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-15.jpg",
+          "source": "海报/活动海报 (3).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-16.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-16.jpg",
+          "source": "海报/活动海报 (3).png",
+          "w": 867,
+          "h": 1155,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-17.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-17.jpg",
+          "source": "海报/活动海报 (4).jpg",
+          "w": 1286,
+          "h": 1800,
+          "tw": 543,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-18.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-18.jpg",
+          "source": "海报/活动海报 (4).png",
+          "w": 867,
+          "h": 1299,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-19.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-19.jpg",
+          "source": "海报/活动海报 (5).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-20.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-20.jpg",
+          "source": "海报/活动海报 (5).png",
+          "w": 564,
+          "h": 759,
+          "tw": 564,
+          "th": 759
+        },
+        {
+          "src": "assets/portfolio/posters-21.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-21.jpg",
+          "source": "海报/活动海报 (6).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-22.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-22.jpg",
+          "source": "海报/活动海报 (7).jpg",
+          "w": 1255,
+          "h": 1800,
+          "tw": 530,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-23.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-23.jpg",
+          "source": "海报/活动海报 (8).jpg",
+          "w": 1180,
+          "h": 1800,
+          "tw": 498,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/posters-24.jpg",
+          "thumb": "assets/portfolio/thumbs/posters-24.jpg",
+          "source": "海报/活动海报 (9).jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         }
       ]
     },
     {
       "title": "Commercial Landing",
+      "slug": "commercial-landing",
       "category": "Commercial Landing",
       "tone": "????????????????",
-      "priority": 12,
-      "slug": "commercial-landing",
+      "priority": 14,
+      "count": 35,
+      "feature": [
+        2,
+        8,
+        16,
+        28
+      ],
       "sourceGroup": "更多物料落地",
-      "count": 14,
       "images": [
         {
           "src": "assets/portfolio/commercial-landing-01.jpg",
-          "source": "更多物料落地/物料落地展示 (1).jpg",
-          "w": 837,
-          "h": 1115
+          "thumb": "assets/portfolio/thumbs/commercial-landing-01.jpg",
+          "source": "更多物料落地/市集.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-02.jpg",
-          "source": "更多物料落地/物料落地展示 (10).jpg",
-          "w": 828,
-          "h": 1100
+          "thumb": "assets/portfolio/thumbs/commercial-landing-02.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 10.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-03.jpg",
-          "source": "更多物料落地/物料落地展示 (11).jpg",
-          "w": 1080,
-          "h": 1440
+          "thumb": "assets/portfolio/thumbs/commercial-landing-03.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 11.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-04.jpg",
-          "source": "更多物料落地/物料落地展示 (12).jpg",
-          "w": 1080,
-          "h": 1440
+          "thumb": "assets/portfolio/thumbs/commercial-landing-04.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 3.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-05.jpg",
-          "source": "更多物料落地/物料落地展示 (13).jpg",
-          "w": 846,
-          "h": 1107
+          "thumb": "assets/portfolio/thumbs/commercial-landing-05.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 4.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-06.jpg",
-          "source": "更多物料落地/物料落地展示 (14).jpg",
-          "w": 849,
-          "h": 1131
+          "thumb": "assets/portfolio/thumbs/commercial-landing-06.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 5.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-07.jpg",
-          "source": "更多物料落地/物料落地展示 (2).jpg",
-          "w": 828,
-          "h": 1242
+          "thumb": "assets/portfolio/thumbs/commercial-landing-07.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 6.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-08.jpg",
-          "source": "更多物料落地/物料落地展示 (3).jpg",
-          "w": 814,
-          "h": 1085
+          "thumb": "assets/portfolio/thumbs/commercial-landing-08.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 7.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-09.jpg",
-          "source": "更多物料落地/物料落地展示 (4).jpg",
-          "w": 792,
-          "h": 1056
+          "thumb": "assets/portfolio/thumbs/commercial-landing-09.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 8.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-10.jpg",
-          "source": "更多物料落地/物料落地展示 (5).jpg",
-          "w": 1080,
-          "h": 1620
+          "thumb": "assets/portfolio/thumbs/commercial-landing-10.jpg",
+          "source": "更多物料落地/市集_画板 1 副本 9.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-11.jpg",
-          "source": "更多物料落地/物料落地展示 (6).jpg",
-          "w": 1620,
-          "h": 1080
+          "thumb": "assets/portfolio/thumbs/commercial-landing-11.jpg",
+          "source": "更多物料落地/市集_画板 1 副本.jpg",
+          "w": 1350,
+          "h": 1800,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-12.jpg",
-          "source": "更多物料落地/物料落地展示 (7).jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-12.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_103744_319.jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-13.jpg",
-          "source": "更多物料落地/物料落地展示 (8).jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-13.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104211_756.jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1620,
+          "tw": 507,
+          "th": 760
         },
         {
           "src": "assets/portfolio/commercial-landing-14.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-14.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104221_646.jpg",
+          "w": 1080,
+          "h": 1620,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-15.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-15.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104225_455.jpg",
+          "w": 1080,
+          "h": 1620,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-16.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-16.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104228_972.jpg",
+          "w": 1080,
+          "h": 1620,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-17.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-17.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104337_489.jpg",
+          "w": 828,
+          "h": 1098,
+          "tw": 573,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-18.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-18.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104347_285.jpg",
+          "w": 828,
+          "h": 1229,
+          "tw": 512,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-19.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-19.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104448_744.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-20.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-20.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104500_330.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-21.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-21.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104601_440.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-22.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-22.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104613_443.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-23.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-23.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104627_498.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-24.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-24.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104721_589.jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-25.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-25.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104800_740.jpg",
+          "w": 1080,
+          "h": 1620,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-26.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-26.jpg",
+          "source": "更多物料落地/微信图片_2026-06-03_104812_563.jpg",
+          "w": 1080,
+          "h": 1620,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-27.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-27.jpg",
+          "source": "更多物料落地/物料落地展示 (10).jpg",
+          "w": 828,
+          "h": 1100,
+          "tw": 572,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-28.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-28.jpg",
+          "source": "更多物料落地/物料落地展示 (11).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-29.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-29.jpg",
+          "source": "更多物料落地/物料落地展示 (12).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-30.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-30.jpg",
+          "source": "更多物料落地/物料落地展示 (2).jpg",
+          "w": 828,
+          "h": 1242,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-31.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-31.jpg",
+          "source": "更多物料落地/物料落地展示 (5).jpg",
+          "w": 1080,
+          "h": 1620,
+          "tw": 507,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-32.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-32.jpg",
+          "source": "更多物料落地/物料落地展示 (6).jpg",
+          "w": 1620,
+          "h": 1080,
+          "tw": 760,
+          "th": 507
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-33.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-33.jpg",
+          "source": "更多物料落地/物料落地展示 (7).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-34.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-34.jpg",
+          "source": "更多物料落地/物料落地展示 (8).jpg",
+          "w": 1080,
+          "h": 1440,
+          "tw": 570,
+          "th": 760
+        },
+        {
+          "src": "assets/portfolio/commercial-landing-35.jpg",
+          "thumb": "assets/portfolio/thumbs/commercial-landing-35.jpg",
           "source": "更多物料落地/物料落地展示 (9).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         }
       ]
     },
     {
       "title": "Playful Experiments",
+      "slug": "playful-experiments",
       "category": "Playful Experiments",
       "tone": "?????Logo?????????",
-      "priority": 13,
-      "slug": "playful-experiments",
-      "sourceGroup": "更多有趣设计",
+      "priority": 15,
       "count": 12,
+      "feature": [
+        1,
+        2,
+        4,
+        9
+      ],
+      "sourceGroup": "更多有趣设计",
       "images": [
         {
           "src": "assets/portfolio/playful-experiments-01.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-01.jpg",
           "source": "更多有趣设计/1-合集展示 (1).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-02.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-02.jpg",
           "source": "更多有趣设计/1-合集展示 (2).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-03.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-03.jpg",
           "source": "更多有趣设计/1-合集展示 (3).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-04.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-04.jpg",
           "source": "更多有趣设计/1-合集展示 (4).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-05.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-05.jpg",
           "source": "更多有趣设计/1-合集展示 (5).jpg",
           "w": 1080,
-          "h": 1440
+          "h": 1440,
+          "tw": 570,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-06.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-06.jpg",
           "source": "更多有趣设计/持续更新 (1).jpg",
           "w": 261,
-          "h": 1800
+          "h": 1800,
+          "tw": 110,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-07.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-07.jpg",
           "source": "更多有趣设计/持续更新 (2).jpg",
           "w": 289,
-          "h": 1800
+          "h": 1800,
+          "tw": 122,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-08.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-08.jpg",
           "source": "更多有趣设计/持续更新 (3).jpg",
           "w": 469,
-          "h": 1800
+          "h": 1800,
+          "tw": 198,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-09.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-09.jpg",
           "source": "更多有趣设计/持续更新 (4).jpg",
           "w": 453,
-          "h": 1800
+          "h": 1800,
+          "tw": 191,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-10.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-10.jpg",
           "source": "更多有趣设计/持续更新 (5).jpg",
           "w": 535,
-          "h": 1800
+          "h": 1800,
+          "tw": 226,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-11.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-11.jpg",
           "source": "更多有趣设计/持续更新 (6).jpg",
           "w": 539,
-          "h": 1800
+          "h": 1800,
+          "tw": 228,
+          "th": 760
         },
         {
           "src": "assets/portfolio/playful-experiments-12.jpg",
+          "thumb": "assets/portfolio/thumbs/playful-experiments-12.jpg",
           "source": "更多有趣设计/持续更新 (7).jpg",
           "w": 532,
-          "h": 1800
+          "h": 1800,
+          "tw": 225,
+          "th": 760
         }
       ]
     }
