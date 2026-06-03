@@ -3,7 +3,7 @@ const projects = [
     "title": "TOPHIT STORE",
     "slug": "tophit",
     "category": "IP Worlds",
-    "tone": "??????????????????",
+    "tone": "复古街头、咖啡、啤酒、运动与节日主题",
     "count": 32,
     "feature": [
       3,
@@ -16,7 +16,7 @@ const projects = [
     "title": "EFAC",
     "slug": "efac",
     "category": "IP Worlds",
-    "tone": "?????????????????",
+    "tone": "咖啡店节日视觉、贴纸周边与门店氛围",
     "count": 26,
     "feature": [
       1,
@@ -29,7 +29,7 @@ const projects = [
     "title": "Potato Brew",
     "slug": "potatodrew",
     "category": "Brand Systems",
-    "tone": "?????????????????",
+    "tone": "餐饮品牌角色、招牌、杯垫与门店物料",
     "count": 13,
     "feature": [
       2,
@@ -42,7 +42,7 @@ const projects = [
     "title": "Circle Burger",
     "slug": "circle-burger",
     "category": "IP Worlds",
-    "tone": "??????????????",
+    "tone": "汉堡角色、复古广告与门店导视",
     "count": 10,
     "feature": [
       1,
@@ -52,10 +52,10 @@ const projects = [
     ]
   },
   {
-    "title": "??",
+    "title": "\u80f6\u6e38",
     "slug": "vinyl-tour",
     "category": "IP Worlds",
-    "tone": "????????????????",
+    "tone": "\u97f3\u4e50\u5531\u7247\u3001\u89d2\u8272\u5468\u8fb9\u4e0e\u84dd\u8272\u89c6\u89c9\u7cfb\u7edf",
     "count": 17,
     "feature": [
       1,
@@ -68,7 +68,7 @@ const projects = [
     "title": "Play Box",
     "slug": "play-box",
     "category": "IP Worlds",
-    "tone": "????????????????",
+    "tone": "剧场盒子角色、活动海报与线下场景",
     "count": 7,
     "feature": [
       2,
@@ -81,7 +81,7 @@ const projects = [
     "title": "Strong Burger",
     "slug": "strongburger",
     "category": "Brand Systems",
-    "tone": "??????????????",
+    "tone": "强壮汉堡门店、招牌与物料陈列",
     "count": 17,
     "feature": [
       2,
@@ -91,10 +91,10 @@ const projects = [
     ]
   },
   {
-    "title": "????",
+    "title": "\u6ee1\u6512\u7cbe\u917f",
     "slug": "manzan-brew",
     "category": "Brand Systems",
-    "tone": "???????????????",
+    "tone": "\u7cbe\u917f\u54c1\u724c\u3001\u718a\u5f62\u89d2\u8272\u4e0e\u9ad8\u9971\u548c\u6d77\u62a5",
     "count": 19,
     "feature": [
       1,
@@ -104,10 +104,10 @@ const projects = [
     ]
   },
   {
-    "title": "??",
+    "title": "\u67d1\u9732",
     "slug": "ganlu",
     "category": "Brand Systems",
-    "tone": "????????????????",
+    "tone": "\u6e05\u723d\u996e\u54c1\u5305\u88c5\u3001\u63d2\u753b\u89d2\u8272\u4e0e\u54c1\u724c\u5ef6\u5c55",
     "count": 11,
     "feature": [
       1,
@@ -117,10 +117,10 @@ const projects = [
     ]
   },
   {
-    "title": "????",
+    "title": "\u693f\u8bb0\u9152\u5c4b",
     "slug": "chunji-izakaya",
     "category": "Commercial Landing",
-    "tone": "????????????????",
+    "tone": "\u9152\u5c4b\u54c1\u724c\u89c6\u89c9\u3001\u9910\u996e\u6c1b\u56f4\u4e0e\u7ebf\u4e0b\u843d\u5730",
     "count": 10,
     "feature": [
       1,
@@ -133,7 +133,7 @@ const projects = [
     "title": "Hotdog Park",
     "slug": "hotdog-park",
     "category": "Commercial Landing",
-    "tone": "??????????????",
+    "tone": "热狗餐饮品牌包装、门店与周边",
     "count": 3,
     "feature": [
       1,
@@ -142,10 +142,10 @@ const projects = [
     ]
   },
   {
-    "title": "FIT?S MA",
+    "title": "FIT\u2019S MA",
     "slug": "fits-ma",
     "category": "Commercial Landing",
-    "tone": "????????????",
+    "tone": "杯具、纸袋与轻量品牌物料",
     "count": 12,
     "feature": [
       1,
@@ -158,7 +158,7 @@ const projects = [
     "title": "Posters & Campaigns",
     "slug": "posters",
     "category": "Posters",
-    "tone": "?????????????????",
+    "tone": "餐饮促销、汉堡结构与高密度广告排版",
     "count": 24,
     "feature": [
       1,
@@ -171,7 +171,7 @@ const projects = [
     "title": "Commercial Landing",
     "slug": "commercial-landing",
     "category": "Commercial Landing",
-    "tone": "????????????????",
+    "tone": "服装、包装、门店、杯具与立体公仔",
     "count": 35,
     "feature": [
       2,
@@ -184,7 +184,7 @@ const projects = [
     "title": "Playful Experiments",
     "slug": "playful-experiments",
     "category": "Playful Experiments",
-    "tone": "?????Logo?????????",
+    "tone": "角色合集、Logo合集与持续更新实验",
     "count": 12,
     "feature": [
       1,
@@ -283,7 +283,7 @@ function openGallery(project) {
   galleryGrid.innerHTML = images
     .map(
       (item, index) => `
-        <button class="gallery-item" type="button" data-index="${index}" aria-label="查看 ${item.caption}">
+        <button class="gallery-item" type="button" data-index="${index}" aria-label="\u67e5\u770b ${item.caption}">
           <img src="${item.thumb}" alt="${item.caption}" loading="${index < 6 ? "eager" : "lazy"}" decoding="async">
         </button>
       `,
@@ -312,7 +312,7 @@ function makeCard(project, index) {
   article.className = `project-card ${index === 0 ? "large" : ""}`;
   article.tabIndex = 0;
   article.setAttribute("role", "button");
-  article.setAttribute("aria-label", `打开 ${project.title} 项目图库`);
+  article.setAttribute("aria-label", `\u6253\u5f00 ${project.title} \u9879\u76ee\u56fe\u5e93`);
   article.innerHTML = `
     <figure>
       <img src="${thumbPath(project.slug, main)}" alt="${project.title}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
@@ -366,7 +366,7 @@ function makeArchiveCard(project) {
   article.dataset.category = project.category;
   article.tabIndex = 0;
   article.setAttribute("role", "button");
-  article.setAttribute("aria-label", `打开 ${project.title} 项目图库`);
+  article.setAttribute("aria-label", `\u6253\u5f00 ${project.title} \u9879\u76ee\u56fe\u5e93`);
   const thumbs = project.feature
     .slice(0, 4)
     .map(
